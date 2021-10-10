@@ -1,9 +1,13 @@
 .third-container {
-  padding-top: 100px;
+  padding-top: 60px;
   text-align: center;
 }
 
 .circle-items.not {
   position: relative;
   margin-top: -50px;
+}
+
+.circle-list {
+  display: flex;
 }

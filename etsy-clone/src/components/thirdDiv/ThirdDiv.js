@@ -9,28 +9,28 @@ const ThirdDiv = () => {
       <div className="circle-items not">
         <ul className="circle-list">
           <li>
-            <img src="https://i.etsystatic.com/25031203/r/il/bf807c/2514352834/il_300x300.2514352834_t45s.jpg" />
-            <Link>Face Masks</Link>
+            <img src="https://cdn.collegeraptor.com/wp/wp-content/uploads/2019/04/09210013/eco-friendly-Hydro-Cell-water-bottle-300x300.jpg" />
+            <Link>Water Bottles</Link>
           </li>
           <li>
-            <img src="https://i.etsystatic.com/25031203/r/il/bf807c/2514352834/il_300x300.2514352834_t45s.jpg" />
-            <Link>Face Masks</Link>
+            <img src="https://www.mantragoldcoatings.com/wp-content/uploads/1-227-300x300.jpg" />
+            <Link>Pillows</Link>
           </li>
           <li>
-            <img src="https://i.etsystatic.com/25031203/r/il/bf807c/2514352834/il_300x300.2514352834_t45s.jpg" />
-            <Link>Face Masks</Link>
+            <img src="https://www.bigbasket.com/media/uploads/p/m/40210748_1-cherishx-premium-blue-birthday-balloon-decoration-items.jpg" />
+            <Link>Birthday Decor</Link>
           </li>
           <li>
-            <img src="https://i.etsystatic.com/25031203/r/il/bf807c/2514352834/il_300x300.2514352834_t45s.jpg" />
-            <Link>Face Masks</Link>
+            <img src="https://carolinahoneybees.com/wp-content/uploads/2019/06/beeswax-craft-300x300.jpg" />
+            <Link>Kitchen Supplies</Link>
           </li>
           <li>
-            <img src="https://i.etsystatic.com/25031203/r/il/bf807c/2514352834/il_300x300.2514352834_t45s.jpg" />
-            <Link>Face Masks</Link>
+            <img src="https://www.onyalife.com/wp-content/uploads/2017-05-20_185246-300x300.png" />
+            <Link>Organizers</Link>
           </li>
           <li>
-            <img src="https://i.etsystatic.com/25031203/r/il/bf807c/2514352834/il_300x300.2514352834_t45s.jpg" />
-            <Link>Face Masks</Link>
+            <img src="https://fitsmallbusiness.com/wp-content/uploads/2018/06/word-image-33-e1528128272764-300x300.jpeg" />
+            <Link>Pots</Link>
           </li>
         </ul>
       </div>

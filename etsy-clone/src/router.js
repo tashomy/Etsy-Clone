@@ -8,7 +8,6 @@ const Routes = () => {
   return (
     <div>
       <Route path="/" exact component={Page}></Route>
-      <Route path="/" exact component={SixthDiv}></Route>
     </div>
   );
 };

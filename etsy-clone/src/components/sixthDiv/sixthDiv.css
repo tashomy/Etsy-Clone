@@ -1,3 +1,8 @@
+.faq {
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+}
 .faq-part-1,
 .faq-part-2,
 .faq-part-3,
@@ -5,6 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .faq-part-1 > * {
@@ -24,16 +30,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 20px;
+  /* margin: 20px 20px; */
+  border-bottom: 1px solid #333;
+  width: 100%;
 }
 
 .faq-choice button {
   border: none;
   cursor: pointer;
   height: 50px;
-  font-size: 25px;
+  font-size: 20px;
   padding: 5px;
   background-color: transparent;
+  color: #333;
+  width: calc(100% / 4);
+  /* transition: all 1s ease-out !important; */
 }
 
 .faq-box {
@@ -106,4 +117,39 @@
     no-repeat center center/cover;
   height: 200px;
   width: 100%;
+}
+
+.active {
+  color: black !important;
+  border-bottom: 1px solid #000 !important;
+}
+
+/* #home {
+  transition: all 1s ease-in-out !important;
+}
+#modern {
+  transition: all 1s ease-in-out !important;
+}
+#health {
+  transition: all 1s ease-in-out !important;
+}
+#art {
+  transition: all 1s ease-in-out !important;
+} */
+
+#home:hover {
+  border-bottom: 2px solid #333 !important;
+}
+#modern:hover {
+  border-bottom: 2px solid #333 !important;
+}
+#health:hover {
+  border-bottom: 2px solid #333 !important;
+}
+#art:hover {
+  border-bottom: 2px solid #333 !important;
+}
+
+.title-faq {
+  font-size: 2em;
 }

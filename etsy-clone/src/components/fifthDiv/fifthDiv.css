@@ -1,5 +1,7 @@
 .fifth-container {
   text-align: center;
+  width: 90%;
+  margin: auto;
 }
 
 .cards {
@@ -32,4 +34,8 @@
 
 .crossed {
   text-decoration: line-through;
+}
+
+.title-fifth {
+  margin: 20px 0;
 }

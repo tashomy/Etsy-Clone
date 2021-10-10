@@ -1,0 +1,50 @@
+.seventh-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+}
+.cards-seven {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-seven {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 6);
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.card-seven a {
+  text-decoration: none;
+}
+
+.card-seven a img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-seven a p {
+  padding: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.card-seven:hover {
+  box-shadow: 0px 0px 4px 4px rgba(148, 148, 148, 0.6);
+}
+
+.seventh-title {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.seventh-smaller {
+  font-size: 15px;
+  font-weight: 100;
+}

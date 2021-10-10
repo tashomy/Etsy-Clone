@@ -1,8 +1,9 @@
 #header {
   display: flex;
   flex-direction: column;
+  width: 90%;
+  margin: auto;
   margin-top: 10px;
-  border-bottom: 1px solid rgb(168, 166, 166);
 }
 
 #top-header {
@@ -42,6 +43,8 @@
   align-items: center;
   text-align: center;
   list-style: none;
+
+  padding: 5px;
 }
 
 #bottom-header ul li {
@@ -52,5 +55,14 @@
 #bottom-header ul li a {
   text-decoration: none;
   color: #333;
-  font-size: 15px;
+  font-size: 13px;
+}
+
+.basket {
+  padding: 5px;
+}
+
+.basket:hover {
+  background-color: #f2f2f2;
+  border-radius: 50%;
 }

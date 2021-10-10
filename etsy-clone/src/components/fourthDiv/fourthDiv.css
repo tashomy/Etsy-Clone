@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
+  margin: auto;
 
   margin-top: 200px;
 }
@@ -17,12 +18,46 @@
   padding: 10px;
 }
 
+#smaller1 {
+  background: url("https://images.unsplash.com/photo-1525385444278-b7968e7e28dc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aXRlbXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    no-repeat center center/cover;
+}
+#smaller2 {
+  background: url("https://images.unsplash.com/photo-1577401239170-897942555fb3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGl0ZW1zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    no-repeat center center/cover;
+}
+#smaller3 {
+  background: url("https://images.unsplash.com/photo-1576083983581-091fe917ff9d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGl0ZW1zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    no-repeat center center/cover;
+}
+#smaller4 {
+  background: url("https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw0NjYwMjB8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60")
+    no-repeat center center/cover;
+}
+
 .smaller {
   background: url("https://i.etsystatic.com/24559708/r/il/709fc2/2715473104/il_340x270.2715473104_9gv9.jpg")
     no-repeat center center/cover;
   height: 40%;
   width: 100%;
   margin: 5px;
+}
+
+#bigger1 {
+  background: url("https://images.unsplash.com/photo-1524672353063-4f66ee1f385e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mnw0NjYwMjB8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60")
+    no-repeat center center/cover;
+}
+#bigger2 {
+  background: url("https://images.unsplash.com/photo-1508239364785-8b484ce1452b?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Nnw0NjYwMjB8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    no-repeat center center/cover;
+}
+#bigger3 {
+  background: url("https://images.unsplash.com/photo-1515651472908-39da81db8607?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHw0NjYwMjB8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    no-repeat center center/cover;
+}
+#bigger4 {
+  background: url("https://images.unsplash.com/photo-1468421201266-ec88b2809284?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTZ8NDY2MDIwfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    no-repeat center center/cover;
 }
 
 .bigger {

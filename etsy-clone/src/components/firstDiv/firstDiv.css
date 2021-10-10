@@ -8,11 +8,12 @@
   text-align: center;
   position: relative;
   padding-top: 20px;
+  border-top: 1px solid rgb(168, 166, 166);
 }
 
 .title {
   font-weight: 100;
-  font-size: 50px;
+  font-size: 45px;
   margin-top: 20px;
 }
 
@@ -43,6 +44,10 @@
 .circle-list li img {
   max-width: 70%;
   border-radius: 50%;
+}
+
+.circle-list li:hover {
+  cursor: pointer;
 }
 
 .circle-list li a {

@@ -35,7 +35,7 @@ const Navbar = () => {
         </Link>
         <Link to="/">
           <IoIosBasket
-            className="btn btn-primary"
+            className="basket"
             size={30}
             style={{ fill: "black" }}
           ></IoIosBasket>
@@ -49,7 +49,7 @@ const Navbar = () => {
           <li id="clothing">
             <Link> Clothing & Shoes</Link>
           </li>
-          <li id="home">
+          <li id="home-nav">
             <Link>Home & Living</Link>
           </li>
           <li id="wedding">
@@ -58,7 +58,7 @@ const Navbar = () => {
           <li id="toys">
             <Link>Toys & Entertainment</Link>
           </li>
-          <li id="art">
+          <li id="art-nav">
             <Link>Art & Collectibles</Link>
           </li>
           <li id="craft">
