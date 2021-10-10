@@ -1,0 +1,109 @@
+.faq-part-1,
+.faq-part-2,
+.faq-part-3,
+.faq-part-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-part-1 > * {
+  margin: 10px;
+}
+.faq-part-2 > * {
+  margin: 10px;
+}
+.faq-part-3 > * {
+  margin: 10px;
+}
+.faq-part-4 > * {
+  margin: 10px;
+}
+
+.faq-choice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.faq-choice button {
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  font-size: 25px;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.faq-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: calc(100% / 4);
+}
+
+.faq-box > *:nth-child(even) {
+  margin-top: 5px;
+}
+.faq-box > *:nth-child(odd) {
+  margin-bottom: 5px;
+}
+
+.big-image1 {
+  background: url("https://i.etsystatic.com/18909736/r/il/e0147b/2016098778/il_680x540.2016098778_a5p6.jpg")
+    no-repeat center center/cover;
+  height: 400px;
+  width: calc(100% / 4);
+}
+
+.small-image1 {
+  background: url("https://i.etsystatic.com/9961441/r/il/53fd10/1042039956/il_340x270.1042039956_9tuk.jpg")
+    no-repeat center center/cover;
+  height: 200px;
+  width: 100%;
+}
+
+.big-image2 {
+  background: url("https://i.etsystatic.com/9089295/r/il/31ceb1/686266185/il_680x540.686266185_mmmf.jpg")
+    no-repeat center center/cover;
+  height: 400px;
+  width: calc(100% / 4);
+}
+
+.small-image2 {
+  background: url("https://i.etsystatic.com/10745498/r/il/c489d8/1337079044/il_340x270.1337079044_3imt.jpg")
+    no-repeat center center/cover;
+  height: 200px;
+  width: 100%;
+}
+
+.big-image3 {
+  background: url("https://i.etsystatic.com/16555873/r/il/350d08/1414096331/il_680x540.1414096331_iq86.jpg")
+    no-repeat center center/cover;
+  height: 400px;
+  width: calc(100% / 4);
+}
+
+.small-image3 {
+  background: url("https://i.etsystatic.com/6069879/r/il/421512/3362165705/il_680x540.3362165705_4zim.jpg")
+    no-repeat center center/cover;
+  height: 200px;
+  width: 100%;
+}
+
+.big-image4 {
+  background: url("https://i.etsystatic.com/7976576/c/2100/1669/0/287/il/acf846/3072901441/il_680x540.3072901441_61td.jpg")
+    no-repeat center center/cover;
+  height: 400px;
+  width: calc(100% / 4);
+}
+
+.small-image4 {
+  background: url("https://i.etsystatic.com/9860799/r/il/04d82b/1003526082/il_340x270.1003526082_njud.jpg")
+    no-repeat center center/cover;
+  height: 200px;
+  width: 100%;
+}

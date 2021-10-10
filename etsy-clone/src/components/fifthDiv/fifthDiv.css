@@ -1,0 +1,35 @@
+.fifth-container {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  text-align: start;
+  width: calc(100% / 6);
+  padding: 10px;
+}
+
+.card a img {
+  width: 100%;
+}
+
+.card a {
+  color: #333;
+  text-decoration: none;
+}
+
+.grey {
+  color: #949090;
+}
+
+.green {
+  color: green;
+  font-size: 0.8rem;
+}
+
+.crossed {
+  text-decoration: line-through;
+}

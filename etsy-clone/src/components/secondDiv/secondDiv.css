@@ -1,0 +1,34 @@
+#second-div {
+  margin-top: 200px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.boxes a {
+  width: calc(100% / 6);
+}
+
+.boxes a img {
+  width: 100%;
+}
+
+.box {
+  position: relative;
+}
+
+.box p {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: rgb(58, 116, 5);
+  background-color: #fff;
+  border: 1px solid chartreuse;
+  border-radius: 50px;
+  padding: 5px;
+}
