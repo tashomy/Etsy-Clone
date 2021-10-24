@@ -46,7 +46,7 @@ const SecondDiv = () => {
         </Link>
         <Link>
           <div className="box">
-            <img src="https://lh3.googleusercontent.com/proxy/9v1e8iGryEXsokwvUib4s7H0MEbtgvHSbqR-nUzJOaG4s3rb8prrAU2YYbA-D0cNX8LOP4QAukGjWgzi4oM8FV3HUnVU99z2sD-w6Phcpg"></img>
+            <img src="https://i.pinimg.com/474x/e1/e2/86/e1e28683b0ea97f93635dfadf2703315.jpg"></img>
             <p>USD 66.0 (40% OFF)</p>
           </div>
         </Link>
